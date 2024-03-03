@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+    
+}
+img {
+    width: 180px; 
+    height: auto; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    text-align: center;
+    background: transparent;
+     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    background:transparent; 
+    padding: 2px 20px;
+    margin-right: 100px;
+    
+}
+
+
+.menu {
+    list-style-type: none; 
+    margin-top: 20px; 
+    margin-bottom: 20;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li:last-child {
+    margin-bottom: 0;
+}
+
+.menu li a {
+    display: block; /* Make the links block-level */
+    color: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+    padding: 10px; 
+}
+
+.menu li a:hover {
+    color: aqua; 
+}
+
+.menu li a.active {
+    background-color: orange; 
+}
+.alert-button {
+    background-color: red;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px; 
+}
+
+
+body {
+    padding: 30px 40px;
+    color: black;
+    background-image: url('../images/44.webp');
+    background-size: cover; 
+    border-radius: 10px;
+    border: 3px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+}
+
+
+
+
+.container {
+    width: 50%;
+    text-align: center;
+
+}
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+#feedback {
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    color: #333333;;
+
+    border-radius: 10px;
+    opacity: 0.5;
+}
+input[type="text"]{
+
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.upload-section {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.upload-section h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.upload-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.upload-section input[type="file"] {
+    margin-bottom: 10px;
+}
+.upload-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.upload-section input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: grey;
+    color: black; 
+    font-size: 16px;
+}
+
+
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
